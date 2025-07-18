@@ -10,6 +10,7 @@
   width: 100px;
   height: 90px;
   margin-top: 7%;
+  cursor: pointer;  
 }
 
 .nav-menu {
@@ -57,9 +58,9 @@
   cursor: pointer;
 }
 
-.nav-login-cart img{
-    width: 40px;
-    height: 38px;
+.nav-login-cart img {
+  width: 40px;
+  height: 38px;
 }
 
 .nav-login-cart button:hover {
