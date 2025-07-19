@@ -1,19 +1,20 @@
 import React, { useState, useEffect } from 'react'
 import './Navbar.css'
 import Logo from '/src/assets/logo.png'
-import cartIcon from '/src/assets/logo.png'
 import { Link } from 'react-router-dom'
+import { ShoppingCart } from 'lucide-react'
+
 
 
 const Navbar = () => {
 
   const [menu, setMenu] = useState(() => {
-    const menuItem = localStorage.getItem('activeMenu')
-    return menuItem;
+    const storedMenu = localStorage.getItem('activeMenu')
+    return storedMenu || 'shop';
   })
   
-  const handleMenuClick = (menuList) => {
-    setMenu(menuList)
+  const handleMenuClick = (menuItem) => {
+    setMenu(menuItem)
   }
 
   const handleCartClick = () => {
@@ -37,23 +38,23 @@ const Navbar = () => {
           <Link style={{textDecoration: 'none'}} to='/'>Shop</Link>
           {menu === 'shop' ? <hr /> : null}
          </li>
-        <li onClick= { () => handleMenuClick('shop')}>
+        <li onClick= { () => handleMenuClick('men')}>
           <Link style={{textDecoration: 'none'}} to='/men'>Men</Link>
-          {menu === 'mens' ? <hr /> : null}
+          {menu === 'men' ? <hr /> : null}
         </li>
-        <li onClick= { () => handleMenuClick('shop')}>
+        <li onClick= { () => handleMenuClick('adult')}>
           <Link style={{textDecoration: 'none'}} to='/adult'>Adult</Link>
-          {menu === 'Adult' ? <hr /> : null}
+          {menu === 'adult' ? <hr /> : null}
         </li>
-        <li onClick= { () => handleMenuClick('shop')}>
-          <Link style={{textDecoration: 'none'}} to='/kid'>Kids</Link>
-          {menu === 'Kids' ? <hr /> : null}
+        <li onClick= { () => handleMenuClick('kid')}>
+          <Link style={{textDecoration: 'none'}} to='/kids'>Kids</Link>
+          {menu === 'kid' ? <hr /> : null}
         </li>
       </ul>
 
       <div className="nav-login-cart">
         <Link to='login' onClick={handleCartClick}><button className="">Login</button></Link>
-        <Link to='cart' onClick={handleCartClick}><img src={cartIcon} alt="cart-png" className="" /></Link>
+        <Link to='cart' onClick={handleCartClick}><ShoppingCart /></Link>
         <div className="cart-count">0</div>
       </div>
 
