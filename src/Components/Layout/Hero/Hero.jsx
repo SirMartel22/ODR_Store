@@ -1,7 +1,7 @@
 import React from 'react'
 // import arrow_icon from '/src/assets/logo.png'
 import hero_image from '/src/assets/sneaker.png'
-import './hero.css'
+import './Hero.css'
 import { MoveRight } from 'lucide-react'
 
 
