@@ -64,9 +64,9 @@
 }
 
 .hero-right img{
-    width: 100%;
+    /* width: 100%; */
     height: 30rem;
-    transform: rotate(-30deg);
+    /* transform: rotate(-30deg); */
     drop-shadow: :
 }
 
