@@ -10,6 +10,8 @@ import LoginSignup from './Pages/LoginSignup'
 import men_banner from './assets/men.jpg'
 import adult_banner from './assets/adult.jpg'
 import kid_banner from './assets/kid.jpg'
+import Footer from '/src/Components/Layout/Footer/Footer'
+
 
 
 function App() {
@@ -30,6 +32,8 @@ function App() {
           <Route path='/cart' element={<Cart /> } />
           <Route path='/login' element={<LoginSignup /> } />
         </Routes>
+        <Footer />
+
       </BrowserRouter>
       <Analytics />
     </>
