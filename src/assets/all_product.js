@@ -37,7 +37,7 @@ let all_product = [
     },
 
     {
-        id: 1,
+        id: 2,
         name: "striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
         category: "adult",
         image: img2,
@@ -46,7 +46,7 @@ let all_product = [
     },
 
     {
-        id: 1,
+        id: 3,
         name: "striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
         category: "kid",
         image: img3,
@@ -55,7 +55,7 @@ let all_product = [
     },
     
     {
-        id: 1,
+        id: 4,
         name: "striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
         category: "men",
         image: img4,
@@ -65,7 +65,7 @@ let all_product = [
 
     
     {
-        id: 1,
+        id: 5,
         name: "striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
         category: "adult",
         image: img5,
@@ -75,7 +75,7 @@ let all_product = [
 
     
     {
-        id: 1,
+        id: 6,
         name: "striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
         category: "kid",
         image: img6,
@@ -85,7 +85,7 @@ let all_product = [
 
     
     {
-        id: 1,
+        id: 7,
         name: "striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
         category: "men",
         image: img7,
@@ -95,7 +95,7 @@ let all_product = [
 
     
     {
-        id: 1,
+        id: 8,
         name: "striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
         category: "adult",
         image: img8,
@@ -105,7 +105,7 @@ let all_product = [
 
     
     {
-        id: 1,
+        id: 9,
         name: "striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
         category: "kid",
         image: img9,
@@ -115,7 +115,7 @@ let all_product = [
 
     
     {
-        id: 1,
+        id: 10,
         name: "striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
         category: "men",
         image: img10,
@@ -125,7 +125,7 @@ let all_product = [
 
     
     {
-        id: 1,
+        id: 11,
         name: "striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
         category: "adult",
         image: img11,
@@ -135,7 +135,7 @@ let all_product = [
 
     
     {
-        id: 1,
+        id: 12,
         name: "striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
         category: "kid",
         image: img12,
@@ -145,7 +145,7 @@ let all_product = [
 
     
     {
-        id: 1,
+        id: 13,
         name: "striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
         category: "men",
         image: img12,
@@ -155,7 +155,7 @@ let all_product = [
 
     
     {
-        id: 1,
+        id: 14,
         name: "striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
         category: "adult",
         image: img13,
@@ -165,7 +165,7 @@ let all_product = [
 
       
     {
-        id: 1,
+        id: 15,
         name: "striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
         category: "kid",
         image: img14,
@@ -175,7 +175,7 @@ let all_product = [
 
       
     {
-        id: 1,
+        id: 16,
         name: "striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
         category: "adult",
         image: img15,
@@ -185,7 +185,7 @@ let all_product = [
 
       
     {
-        id: 1,
+        id: 17,
         name: "striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
         category: "kid",
         image: img16,
@@ -195,7 +195,7 @@ let all_product = [
 
       
     {
-        id: 1,
+        id: 18,
         name: "striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
         category: "men",
         image: img17,
@@ -205,7 +205,7 @@ let all_product = [
 
       
     {
-        id: 1,
+        id: 19,
         name: "striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
         category: "adult",
         image: img18,
@@ -215,7 +215,7 @@ let all_product = [
 
       
     {
-        id: 1,
+        id: 20,
         name: "striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
         category: "kid",
         image: img19,
@@ -225,7 +225,7 @@ let all_product = [
 
       
     {
-        id: 1,
+        id: 21,
         name: "striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
         category: "men",
         image: img20,
@@ -235,7 +235,7 @@ let all_product = [
 
       
     {
-        id: 1,
+        id: 22,
         name: "striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
         category: "kid",
         image: img21,
@@ -245,7 +245,7 @@ let all_product = [
 
       
     {
-        id: 1,
+        id: 23,
         name: "striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
         category: "adult",
         image: img22,
@@ -255,7 +255,7 @@ let all_product = [
 
       
     {
-        id: 1,
+        id: 24,
         name: "striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
         category: "men",
         image: img23,
@@ -265,7 +265,7 @@ let all_product = [
 
       
     {
-        id: 1,
+        id: 25,
         name: "striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
         category: "adult",
         image: img24,
@@ -275,7 +275,7 @@ let all_product = [
 
       
     {
-        id: 1,
+        id: 26,
         name: "striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
         category: "kid",
         image: img25,
@@ -285,7 +285,7 @@ let all_product = [
 
       
     {
-        id: 1,
+        id: 27,
         name: "striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
         category: "men",
         image: img26,
