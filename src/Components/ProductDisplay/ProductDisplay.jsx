@@ -1,11 +1,13 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import './ProductDisplay.css'
-import {Star} from 'lucide-react'
+import { Star } from 'lucide-react'
+import { ShopContext } from "/src/Context/ShopContext.jsx"
 
 
 
 const ProductDisplay = (props) => {
-    const {product} = props
+    const { product } = props;
+    const { addToCart } = useContext(ShopContext)
   return (
     <div className="productdisplay">
           <div className="productdisplay-left">
@@ -52,7 +54,7 @@ const ProductDisplay = (props) => {
                       </div>
                   </div>
 
-                  <button>ADD TO CART</button>
+                  <button onClick = {()=>{addToCart(product.id)}}>ADD TO CART</button>
                   <p className="productdisplay-right-category">
                       <span>Category: <span>Men, Trainers, Sneakers </span></span>
                   </p>
