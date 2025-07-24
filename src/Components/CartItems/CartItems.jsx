@@ -7,10 +7,10 @@ import { X } from 'lucide-react'
 
 const CartItems = () => {
 
-    const {all_products, cartItems, removeFromCart} = useContext(ShopContext)
+    const {getTotalCartAmount, all_products, cartItems, removeFromCart} = useContext(ShopContext)
   return (
       <div className="cartitems">
-          <div className="">
+          <div className="cartitems-format-main">
                 <p>Products</p>
                 <p>Title</p>
                 <p>Price</p>
@@ -24,7 +24,7 @@ const CartItems = () => {
                 if (cartItems[e.id] > 0) {
                     return (
                         <div key={e.id}> 
-                            <div className="cartItems-format cartItems-formart-main"> 
+                            <div className="cartitems-format cartitems-format-main"> 
                                 <img className="carticon-product-icon" src={e.image} alt="" />
                                 <p>{e.name}</p>
                                 <p>${e.new_price}</p>
@@ -37,9 +37,45 @@ const CartItems = () => {
                             </div>
                        </div>
                    )
-               } 
+                } 
+                return null;
             })}
+          <div className="cartitems-down">
               
+              <div className="cartitems-total">
+                  <h1>Cart Total</h1>
+             
+
+                    <div>
+                        <div className="cartitems-total-item">
+                            <p>SubTotal</p>
+                          <p>${getTotalCartAmount()}</p>
+                        </div>
+                        <hr />
+                        <div className="cartitems-total-item">
+                            <p>Shipping Free</p>
+                            <p>Free</p>
+                        </div>
+                        <hr />
+                        <div className="cartitems-total-item">
+                            <h3>Total</h3>
+                          <h3>${ getTotalCartAmount()}</h3>
+                        </div>
+                        <button>PROCEED TO CHECKOUT</button>
+                    </div>
+             </div>
+
+          
+            <div className="cartitems-promocode">
+                <p>If you have a promo code, Enter it here</p>
+                <div className="cartitems-promobox">
+                    <input type="text" placeholder="promo code" />
+                    <button>Submit</button>
+                </div>
+            </div>
+              
+            </div>
+            
         </div>
   )
 }
