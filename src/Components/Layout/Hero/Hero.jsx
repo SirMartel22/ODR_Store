@@ -1,12 +1,11 @@
 import React from 'react'
 import hero_image from '/src/assets/sneaker.png'
-import './Hero.css'
 import { MoveRight } from 'lucide-react'
 
 
 const Hero = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center justify-center px-12 py-18 gap-2 bg-[#895ab7ff] overflow-hidden">
+    <div className="flex flex-col md:flex-row items-center justify-center px-24 py-18 gap-2 bg-[#895ab7ff] overflow-hidden">
 
       <div className="hero-left flex flex-col gap-2 items-start justify-center w-[70%] ">
           <h2 className="font-bold text-4xl text-white">ODR Fits and Wears</h2>

@@ -1,5 +1,4 @@
 import React, { useContext, useState, useEffect } from 'react'
-import './Navbar.css'
 import Logo from '/src/assets/logo.png'
 import { Link, useLocation } from 'react-router-dom'
 import { ShoppingCart } from 'lucide-react'
@@ -33,13 +32,13 @@ const Navbar = () => {
 
   // console.log(Logo)
   return (
-    <div className="navbar">
+    <div className="navbar flex flex-col md:flex-row gap-4 md:gap-24 items-center justify-around p-6">
 
-      <div className="nav-logo">
+      <div className="nav-logo w-[70px]">
         <img src={Logo} alt="Odrlogo" />
       </div>
 
-      <ul className="nav-menu">
+      <ul className="nav-menu flex  items-center gap-12" >
         <li onClick= { () => handleMenuClick('shop')}>
           <Link style={{textDecoration: 'none'}} to='/'>Shop</Link>
           {isSpecialPage && menu === 'shop' ? <hr /> : null}
@@ -58,10 +57,10 @@ const Navbar = () => {
         </li>
       </ul>
 
-      <div className="nav-login-cart">
-        <Link to='login' onClick={handleCartClick}><button className="">Login</button></Link>
+      <div className="nav-login-cart flex justify-between items-center">
+        <Link to='login' onClick={handleCartClick}><button className="mr-12">Login</button></Link>
         <Link to='cart' onClick={handleCartClick}><ShoppingCart /></Link>
-        <div className="cart-count">{ getTotalCartItems()}</div>
+        <div className="cart-count ml-[-8px] mt-[-8px] bg-[#00f] flex items-center justify-center rounded-[50%] h-[20px] w-[20px] text-white p-1">{ getTotalCartItems()}</div>
       </div>
 
     </div> 
