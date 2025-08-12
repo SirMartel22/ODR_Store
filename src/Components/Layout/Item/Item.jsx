@@ -13,7 +13,7 @@ const Item = (props) => {
                 onClick={window.scrollTo(0, 0)}
                 src={image}
                 alt="image"
-                className="w-full" 
+                className="w-full rounded-md" 
               />
             </Link>
           </div>
