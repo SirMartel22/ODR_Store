@@ -6,12 +6,12 @@ import './Footer.css'
  
 const Footer = () => {
   return (
-    <div className="footer">
-      <div className="footer-logo">
-        <img src={Logo} alt="logo" />
+    <div className="footer flex flex-col items-center justify-center gap-12 pt-12 pb-24 border">
+      <div className="footer-logo flex items-center justify-center">
+        <img src={Logo} alt="logo" className="w-1/3"/>
       </div>
 
-      <ul className="footer-links">
+      <ul className="footer-links flex gap-4">
         <li>Company</li>
         <li>Products</li>
         <li>Offices</li>
@@ -20,11 +20,11 @@ const Footer = () => {
       </ul>
 
       <div className="footer-social-icon">
-        <div className="footer-icons-container">
-          <li><Facebook /> </li>
-          <li><Instagram /> </li> 
-          <li><FaTiktok /></li>  
-          <li><FaWhatsapp /></li>
+        <div className="footer-icons-container flex gap-6 ">
+          <Facebook /> 
+          <Instagram /> 
+          <FaTiktok /> 
+          <FaWhatsapp />
           
         </div>
       </div>
