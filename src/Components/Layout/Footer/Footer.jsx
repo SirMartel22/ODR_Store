@@ -2,7 +2,6 @@ import React from 'react'
 import Logo from '/src/assets/logo.png' 
 import { Facebook, Instagram } from 'lucide-react'
 import { FaTiktok, FaWhatsapp } from "react-icons/fa";
-import './Footer.css'
  
 const Footer = () => {
   return (

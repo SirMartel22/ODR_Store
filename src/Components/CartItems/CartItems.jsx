@@ -7,7 +7,7 @@ import { X } from 'lucide-react'
 
 const CartItems = () => {
 
-    const {getTotalCartAmount, all_products, cartItems, removeFromCart} = useContext(ShopContext)
+    const {getTotalCartAmount, cartItems, removeFromCart} = useContext(ShopContext)
   return (
       <div className="cartitems">
           <div className="cartitems-format-main">

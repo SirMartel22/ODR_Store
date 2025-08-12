@@ -18,11 +18,6 @@ const Hero = () => {
           <MoveRight />
         </button>
       </div>
-
-      {/* <div className="hero-right w-full md:w-1/2 flex justify-center">
-        <img src={hero_image} alt="hero" className="w-full max-w-md drop-shadow-2xl hover:scale-105 transition-transform duration-300" />
-      </div> */}
-
     </div>
   )
 }
