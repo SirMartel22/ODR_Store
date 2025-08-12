@@ -4,7 +4,7 @@ import { MoveRight } from 'lucide-react'
 
 const Hero = () => {
   return (
-    <div className="flex flex-col md:flex-row items-start justify-start px-6 md:px-24 py-10 md:py-18 gap-8 bg-gradient-to-r from-purple-600 via-pink-500 to-yellow-400 bg-[url('/src/assets/shop-bg.jpg')] bg-cover bg-center overflow-hidden transition-all duration-500  overflow-hidden transition-all duration-500 h-[150vh] py-96">
+    <div className="flex flex-col md:flex-row items-start justify-center px-6 md:px-24 py-10 md:py-18 gap-8 bg-gradient-to-r from-purple-600 via-pink-500 to-yellow-400 bg-[url('/src/assets/shop-bg.jpg')] bg-cover bg-center overflow-hidden transition-all duration-500  overflow-hidden transition-all duration-500 h-[150vh] py-96">
  
       <div className="hero-left flex flex-col gap-4 items-start justify-center w-full md:w-1/2">
         <h2 className="font-bold text-3xl md:text-4xl text-white drop-shadow-lg">ODR Fits and Wears</h2>
