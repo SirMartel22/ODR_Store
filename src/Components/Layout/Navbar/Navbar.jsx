@@ -65,7 +65,7 @@ const Navbar = () => {
       </ul>
 
       <div className="hidden md:flex justify-between items-center">
-        <Link to='login' onClick={handleCartClick}><button className="mr-12">Login</button></Link>
+        {/* <Link to='login' onClick={handleCartClick}><button className="mr-12">Login</button></Link> */}
         <Link to='cart' onClick={handleCartClick}><ShoppingCart /></Link>
         <div className="cart-count ml-[-8px] mt-[-8px] bg-[#00f] flex items-center justify-center rounded-[50%] h-[20px] w-[20px] text-white p-1">{ getTotalCartItems()}</div>
       </div>
